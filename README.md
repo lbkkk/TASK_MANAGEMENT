@@ -61,7 +61,6 @@ r.Route("/v1/tasks", func(r chi.Router) {
 ## ▶️ Running the Backend (Go API)
 
 ```bash
-cd task-app
 go run ./cmd
 ```
 
@@ -77,12 +76,3 @@ npm run dev      # Start development server
 
 ---
 
-## 📖 Learning Outcomes
-
-This project helps reinforce:
-- How to structure a Go project cleanly
-- Abstracting logic using interfaces
-- Writing maintainable code
-- Building a full-stack application from backend to frontend
-
----
